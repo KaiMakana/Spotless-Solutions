@@ -40,8 +40,8 @@ import { Lead, GalleryItem } from "./types";
 import spotlessPfp from "../Spotless Solutions pfp.png";
 import willAndAvery from "../WillandAvery.png";
 
-const porchBefore = "before-after-photos/PorchBefore1.jpg";
-const porchAfter = "before-after-photos/PorchAfter1.jpg";
+const porchBefore = "/before-after-photos/PorchBefore1.jpg";
+const porchAfter = "/before-after-photos/PorchAfter1.jpg";
 
 export default function App() {
   // Navigation & View States

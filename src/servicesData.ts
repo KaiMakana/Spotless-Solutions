@@ -1,13 +1,13 @@
 import { ServiceDetail, GalleryItem, SeoLandingPage } from "./types";
 
-const porchBefore = "before-after-photos/PorchBefore1.jpg";
-const porchAfter = "before-after-photos/PorchAfter1.jpg";
-const concreteBefore = "before-after-photos/Concretebefore.jpg";
-const concreteAfter = "before-after-photos/Concreteafter.jpg";
-const poolBefore = "before-after-photos/Poolbefore.jpg";
-const poolAfter = "before-after-photos/poolafter.jpg";
-const divingBefore = "before-after-photos/DivingBefore1.jpg";
-const divingAfter = "before-after-photos/DivingAfter1.jpg";
+const porchBefore = "/before-after-photos/PorchBefore1.jpg";
+const porchAfter = "/before-after-photos/PorchAfter1.jpg";
+const concreteBefore = "/before-after-photos/Concretebefore.jpg";
+const concreteAfter = "/before-after-photos/Concreteafter.jpg";
+const poolBefore = "/before-after-photos/Poolbefore.jpg";
+const poolAfter = "/before-after-photos/poolafter.jpg";
+const divingBefore = "/before-after-photos/DivingBefore1.jpg";
+const divingAfter = "/before-after-photos/DivingAfter1.jpg";
 
 export const SERVICES_DATA: ServiceDetail[] = [
   {
