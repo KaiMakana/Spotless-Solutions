@@ -584,8 +584,8 @@ export default function App() {
                       <div className="lg:col-span-6 flex flex-col items-center">
                         <div className="w-full max-w-lg bg-white rounded-3xl p-4 shadow-2xl border border-slate-100 flex flex-col gap-4">
                           <BeforeAfterSlider
-                            beforeSrc="Before and after Photos/PorchBefore1.jpg"
-                            afterSrc="Before and after Photos/PorchAfter1.jpg"
+                            beforeSrc="before-after-photos/PorchBefore1.jpg"
+                            afterSrc="before-after-photos/PorchAfter1.jpg"
                             title="Actual Wisconsin Porch Clean"
                           />
                           <div className="bg-slate-50 p-3 rounded-2xl flex items-center justify-between text-xs">
