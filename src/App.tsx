@@ -39,8 +39,9 @@ import { Lead, GalleryItem } from "./types";
 // Import local image assets to ensure Vite includes them in the compilation/build
 import spotlessPfp from "../Spotless Solutions pfp.png";
 import willAndAvery from "../WillandAvery.png";
-import porchBefore from "./porch-before.jpg";
-import porchAfter from "./porch-after.jpg";
+
+const porchBefore = "before-after-photos/PorchBefore1.jpg";
+const porchAfter = "before-after-photos/PorchAfter1.jpg";
 
 export default function App() {
   // Navigation & View States
