@@ -1,13 +1,13 @@
 import { ServiceDetail, GalleryItem, SeoLandingPage } from "./types";
 
-import porchBefore from "./before-after-photos/PorchBefore1.jpg";
-import porchAfter from "./before-after-photos/PorchAfter1.jpg";
-import concreteBefore from "./before-after-photos/Concretebefore.jpg";
-import concreteAfter from "./before-after-photos/Concreteafter.jpg";
-import poolBefore from "./before-after-photos/Poolbefore.jpg";
-import poolAfter from "./before-after-photos/poolafter.jpg";
-import divingBefore from "./before-after-photos/DivingBefore1.jpg";
-import divingAfter from "./before-after-photos/DivingAfter1.jpg";
+import porchBefore from "./PorchBefore1.jpg";
+import porchAfter from "./PorchAfter1.jpg";
+import concreteBefore from "./Concretebefore.jpg";
+import concreteAfter from "./Concreteafter.jpg";
+import poolBefore from "./Poolbefore.jpg";
+import poolAfter from "./poolafter.jpg";
+import divingBefore from "./DivingBefore1.jpg";
+import divingAfter from "./DivingAfter1.jpg";
 
 export const SERVICES_DATA: ServiceDetail[] = [
   {
