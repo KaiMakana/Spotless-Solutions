@@ -36,6 +36,10 @@ import { AiChatbot } from "./components/AiChatbot";
 import { SERVICES_DATA, GALLERY_DATA, GENERAL_FAQ_DATA, WAUKESHA_CITIES, generateSeoLanding } from "./servicesData";
 import { Lead, GalleryItem } from "./types";
 
+// Import local image assets to ensure Vite includes them in the compilation/build
+import spotlessPfp from "../Spotless Solutions pfp.png";
+import willAndAvery from "../WillandAvery.png";
+
 export default function App() {
   // Navigation & View States
   const [currentTab, setCurrentTab] = useState<"home" | "services" | "gallery" | "about" | "contact" | "dashboard" | "seo">("home");
@@ -311,7 +315,7 @@ export default function App() {
           <div className="flex items-center gap-3 cursor-pointer select-none" onClick={() => navigateToTab("home")}>
             <div className="w-10 h-10 rounded-xl bg-brand-blue flex items-center justify-center overflow-hidden shadow-lg shadow-brand-blue/20 shrink-0 select-none relative">
               <img 
-                src="Spotless Solutions pfp.png" 
+                src={spotlessPfp} 
                 alt="Spotless Solutions Logo" 
                 className="w-full h-full object-cover" 
                 onError={(e) => {
@@ -1320,7 +1324,7 @@ export default function App() {
                   {/* Visual mockup of the 2-man group */}
                   <div className="relative aspect-video rounded-3xl overflow-hidden bg-slate-900 border-4 border-white shadow-2xl flex items-center justify-center">
                     <img
-                      src="WillandAvery.png"
+                      src={willAndAvery}
                       alt="Will and Avery - Spotless Solutions"
                       className="absolute inset-0 w-full h-full object-cover opacity-85"
                       onError={(e) => {
