@@ -39,6 +39,8 @@ import { Lead, GalleryItem } from "./types";
 // Import local image assets to ensure Vite includes them in the compilation/build
 import spotlessPfp from "../Spotless Solutions pfp.png";
 import willAndAvery from "../WillandAvery.png";
+import porchBefore from "./before-after-photos/PorchBefore1.jpg";
+import porchAfter from "./before-after-photos/PorchAfter1.jpg";
 
 export default function App() {
   // Navigation & View States
@@ -584,8 +586,8 @@ export default function App() {
                       <div className="lg:col-span-6 flex flex-col items-center">
                         <div className="w-full max-w-lg bg-white rounded-3xl p-4 shadow-2xl border border-slate-100 flex flex-col gap-4">
                           <BeforeAfterSlider
-                            beforeSrc="before-after-photos/PorchBefore1.jpg"
-                            afterSrc="before-after-photos/PorchAfter1.jpg"
+                            beforeSrc={porchBefore}
+                            afterSrc={porchAfter}
                             title="Actual Wisconsin Porch Clean"
                           />
                           <div className="bg-slate-50 p-3 rounded-2xl flex items-center justify-between text-xs">

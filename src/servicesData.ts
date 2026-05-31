@@ -1,5 +1,14 @@
 import { ServiceDetail, GalleryItem, SeoLandingPage } from "./types";
 
+import porchBefore from "./before-after-photos/PorchBefore1.jpg";
+import porchAfter from "./before-after-photos/PorchAfter1.jpg";
+import concreteBefore from "./before-after-photos/Concretebefore.jpg";
+import concreteAfter from "./before-after-photos/Concreteafter.jpg";
+import poolBefore from "./before-after-photos/Poolbefore.jpg";
+import poolAfter from "./before-after-photos/poolafter.jpg";
+import divingBefore from "./before-after-photos/DivingBefore1.jpg";
+import divingAfter from "./before-after-photos/DivingAfter1.jpg";
+
 export const SERVICES_DATA: ServiceDetail[] = [
   {
     id: "pressure-washing",
@@ -28,8 +37,8 @@ export const SERVICES_DATA: ServiceDetail[] = [
         answer: "Most domestic front pathways and patios take between 1.5 to 3 hours depending on the level of mold buildup."
       }
     ],
-    beforeImage: "before-after-photos/PorchBefore1.jpg",
-    afterImage: "before-after-photos/PorchAfter1.jpg"
+    beforeImage: porchBefore,
+    afterImage: porchAfter
   },
   {
     id: "driveway-cleaning",
@@ -54,8 +63,8 @@ export const SERVICES_DATA: ServiceDetail[] = [
         answer: "We use professional-strength degreasers that significantly lighten or completely lift oil stains. However, deep-seated oils that have saturated the concrete over several years may leave a shadow."
       }
     ],
-    beforeImage: "before-after-photos/Concretebefore.jpg",
-    afterImage: "before-after-photos/Concreteafter.jpg"
+    beforeImage: concreteBefore,
+    afterImage: concreteAfter
   },
   {
     id: "fence-cleaning",
@@ -104,8 +113,8 @@ export const SERVICES_DATA: ServiceDetail[] = [
         answer: "We clean sand joints to clear out weeds and moss without removing solid underlying sand. We offer light post-clean rinsing or can advise if your pavers require a full polymer joint sand re-application."
       }
     ],
-    beforeImage: "before-after-photos/PorchBefore1.jpg",
-    afterImage: "before-after-photos/PorchAfter1.jpg"
+    beforeImage: porchBefore,
+    afterImage: porchAfter
   },
   {
     id: "pool-cleaning",
@@ -130,8 +139,8 @@ export const SERVICES_DATA: ServiceDetail[] = [
         answer: "No. We utilize advanced water redirection techniques and sweep runoff away from pool edges. Any detergents used are fully biodegradable and highly diluted."
       }
     ],
-    beforeImage: "before-after-photos/Poolbefore.jpg",
-    afterImage: "before-after-photos/poolafter.jpg"
+    beforeImage: poolBefore,
+    afterImage: poolAfter
   },
   {
     id: "house-washing",
@@ -190,32 +199,32 @@ export const SERVICES_DATA: ServiceDetail[] = [
 export const GALLERY_DATA: GalleryItem[] = [
   {
     id: "gal-1",
-    before: "before-after-photos/PorchBefore1.jpg",
-    after: "before-after-photos/PorchAfter1.jpg",
+    before: porchBefore,
+    after: porchAfter,
     title: "Porch & Patio Deep Clean",
     category: "Patios",
     description: "Concrete front porch restored from thick organic mold and lichen layers to a pristine, light finish."
   },
   {
     id: "gal-2",
-    before: "before-after-photos/Concretebefore.jpg",
-    after: "before-after-photos/Concreteafter.jpg",
+    before: concreteBefore,
+    after: concreteAfter,
     title: "Oil & Stain Concrete Driveway Restoration",
     category: "Driveways",
     description: "High-volume surface cleaning removed accumulated tire tracks, dark algae patches, and stubborn surface grime on this Wisconsin driveway."
   },
   {
     id: "gal-3",
-    before: "before-after-photos/Poolbefore.jpg",
-    after: "before-after-photos/poolafter.jpg",
+    before: poolBefore,
+    after: poolAfter,
     title: "Sanitary Pool Deck Algae Wash",
     category: "Pool Area",
     description: "Removed slippery black biological growth around domestic poolside lounging areas, improving safety and appearance."
   },
   {
     id: "gal-4",
-    before: "before-after-photos/DivingBefore1.jpg",
-    after: "before-after-photos/DivingAfter1.jpg",
+    before: divingBefore,
+    after: divingAfter,
     title: "Diving Board Mold Treatment & Surfacing",
     category: "Pool Area",
     description: "Controlled soft-wash process lifted years of embedded black mold spores from physical diving platform materials safely."
